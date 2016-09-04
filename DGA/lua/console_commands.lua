@@ -11,7 +11,7 @@ function DGA(args)
         
       end
     end
-    if Player_Found = 1 then
+    if Player_Found == 1 then
       BroadcastLua("chat.AddText(Color(0, 255, 0), LocalPlayer(),  'granted godmode on "..Player_Name".')")
     end
   end
