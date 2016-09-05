@@ -16,3 +16,4 @@ function DGA(args)
     end
   end
 end
+concommand.Add("dga", DGA)
